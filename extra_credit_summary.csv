@@ -1,0 +1,100 @@
+experiment,variant,metric,seed0,seed1,seed2,mean,std,n_valid
+EC1,Q-Learning,policy_optimal_action_share,0.8571,0.8095,0.8095,0.8254,0.0224,3
+EC1,Q-Learning,value_mae_vs_optimal,2.1453,1.9520,1.5666,1.8880,0.2405,3
+EC1,DQN,policy_optimal_action_share,0.9048,0.6190,0.9524,0.8254,0.1472,3
+EC1,DQN,value_mae_vs_optimal,0.6228,2.4906,1.0053,1.3729,0.8056,3
+EC2,DQN,avg_reward_last50,2.7400,2.9800,2.9000,2.8733,0.0998,3
+EC2,DQN,episodes_to_learn,51,15,15,27.0000,16.9706,3
+EC2,DQN,train_time_s,22.5750,5.0183,4.8903,10.8279,8.3066,3
+EC2,DQN,greedy_reached_goal,1,1,1,1.0000,0.0000,3
+EC2,DQN,greedy_steps,8,8,8,8.0000,0.0000,3
+EC2,DQN,q_bias_final(mean Qpred-Q*),-0.4367,-2.0181,-1.7142,-1.3896,0.6852,3
+EC2,DQN,q_abs_error_final,1.0529,2.5305,2.1019,1.8951,0.6207,3
+EC2,DQN,q_abs_error_avg_over_training,8.6287,3.4797,3.0436,5.0506,2.5363,3
+EC2,DQN,q_bias_max_over_training,3.3875,-2.0181,-0.4283,0.3137,2.2683,3
+EC2,Double DQN,avg_reward_last50,2.6800,2.9000,2.9800,2.8533,0.1268,3
+EC2,Double DQN,episodes_to_learn,23,18,23,21.3333,2.3570,3
+EC2,Double DQN,train_time_s,6.1786,5.0720,4.8967,5.3824,0.5675,3
+EC2,Double DQN,greedy_reached_goal,1,1,1,1.0000,0.0000,3
+EC2,Double DQN,greedy_steps,8,8,8,8.0000,0.0000,3
+EC2,Double DQN,q_bias_final(mean Qpred-Q*),-3.5775,-1.3793,-0.1562,-1.7043,1.4155,3
+EC2,Double DQN,q_abs_error_final,3.6665,2.0120,1.1747,2.2844,1.0354,3
+EC2,Double DQN,q_abs_error_avg_over_training,4.2531,3.0360,2.5011,3.2634,0.7331,3
+EC2,Double DQN,q_bias_max_over_training,-1.5532,-1.2848,0.0222,-0.9386,0.6881,3
+EC3,Q-Learning,avg_reward_last50,0.8000,0.8600,0.9600,0.8733,0.0660,3
+EC3,Q-Learning,episodes_to_learn,301,315,354,323.3333,22.4252,3
+EC3,Q-Learning,train_time_s,0.0641,0.0556,0.0621,0.0606,0.0037,3
+EC3,Q-Learning,greedy_reached_goal,1,1,1,1.0000,0.0000,3
+EC3,Q-Learning,greedy_steps,8,8,8,8.0000,0.0000,3
+EC3,Q-Learning,wall_hits_total_training,528,397,600,508.3333,84.0331,3
+EC3,Q-Learning,wall_adjacent_cells_on_greedy_path,4,3,4,3.6667,0.4714,3
+EC3,Q-Learning,mean_maxQ_wall_adjacent_cells,5.8869,6.1532,6.6431,6.2277,0.3132,3
+EC3,Q-Learning,mean_maxQ_other_cells,5.0881,5.0086,5.1328,5.0765,0.0514,3
+EC3,Q-Learning,greedy_path,"(0,0) (0,1) (1,1) (2,1) (2,2) (3,2) (3,3) (3,4) (4,4)","(0,0) (1,0) (1,1) (1,2) (2,2) (3,2) (3,3) (3,4) (4,4)","(0,0) (1,0) (1,1) (1,2) (2,2) (3,2) (3,3) (4,3) (4,4)",,,0
+EC3,SARSA,avg_reward_last50,1.1200,1.9400,1.4400,1.5000,0.3374,3
+EC3,SARSA,episodes_to_learn,367,345,350,354.0000,9.4163,3
+EC3,SARSA,train_time_s,0.0641,0.0597,0.0586,0.0608,0.0024,3
+EC3,SARSA,greedy_reached_goal,1,1,1,1.0000,0.0000,3
+EC3,SARSA,greedy_steps,8,8,8,8.0000,0.0000,3
+EC3,SARSA,wall_hits_total_training,385,384,417,395.3333,15.3261,3
+EC3,SARSA,wall_adjacent_cells_on_greedy_path,1,1,2,1.3333,0.4714,3
+EC3,SARSA,mean_maxQ_wall_adjacent_cells,-4.3908,-5.5231,-1.8274,-3.9138,1.5460,3
+EC3,SARSA,mean_maxQ_other_cells,-1.0808,-0.7512,0.0809,-0.5837,0.4888,3
+EC3,SARSA,greedy_path,"(0,0) (0,1) (0,2) (0,3) (0,4) (1,4) (2,4) (3,4) (4,4)","(0,0) (0,1) (0,2) (0,3) (0,4) (1,4) (2,4) (3,4) (4,4)","(0,0) (0,1) (1,1) (1,2) (1,3) (1,4) (2,4) (3,4) (4,4)",,,0
+EC4,Q-Learning | x0.995 per episode (default),avg_reward_last50,0.8000,0.8600,0.9600,0.8733,0.0660,3
+EC4,Q-Learning | x0.995 per episode (default),episodes_to_learn,301,315,354,323.3333,22.4252,3
+EC4,Q-Learning | x0.995 per episode (default),train_time_s,0.0560,0.0584,0.0599,0.0581,0.0016,3
+EC4,Q-Learning | x0.995 per episode (default),greedy_reached_goal,1,1,1,1.0000,0.0000,3
+EC4,Q-Learning | x0.995 per episode (default),greedy_steps,8,8,8,8.0000,0.0000,3
+EC4,Q-Learning | x0.98 per episode (faster),avg_reward_last50,2.7600,2.7800,2.7200,2.7533,0.0249,3
+EC4,Q-Learning | x0.98 per episode (faster),episodes_to_learn,119,117,119,118.3333,0.9428,3
+EC4,Q-Learning | x0.98 per episode (faster),train_time_s,0.0457,0.0420,0.0420,0.0433,0.0018,3
+EC4,Q-Learning | x0.98 per episode (faster),greedy_reached_goal,1,1,1,1.0000,0.0000,3
+EC4,Q-Learning | x0.98 per episode (faster),greedy_steps,8,8,8,8.0000,0.0000,3
+EC4,Q-Learning | linear to 0.01 over 200 episodes,avg_reward_last50,2.7600,2.7200,2.7600,2.7467,0.0189,3
+EC4,Q-Learning | linear to 0.01 over 200 episodes,episodes_to_learn,191,165,187,181.0000,11.4310,3
+EC4,Q-Learning | linear to 0.01 over 200 episodes,train_time_s,0.0508,0.0494,0.0516,0.0506,0.0009,3
+EC4,Q-Learning | linear to 0.01 over 200 episodes,greedy_reached_goal,1,1,1,1.0000,0.0000,3
+EC4,Q-Learning | linear to 0.01 over 200 episodes,greedy_steps,8,8,8,8.0000,0.0000,3
+EC4,DQN | x0.995 per episode (default),avg_reward_last50,1.3400,1.1000,1.3600,1.2667,0.1181,3
+EC4,DQN | x0.995 per episode (default),episodes_to_learn,290,329,321,313.3333,16.8193,3
+EC4,DQN | x0.995 per episode (default),train_time_s,6.7250,6.6619,6.4032,6.5967,0.1392,3
+EC4,DQN | x0.995 per episode (default),greedy_reached_goal,1,1,1,1.0000,0.0000,3
+EC4,DQN | x0.995 per episode (default),greedy_steps,8,8,8,8.0000,0.0000,3
+EC4,DQN | x0.98 per episode (faster),avg_reward_last50,2.7400,3.0000,2.8400,2.8600,0.1071,3
+EC4,DQN | x0.98 per episode (faster),episodes_to_learn,84,84,89,85.6667,2.3570,3
+EC4,DQN | x0.98 per episode (faster),train_time_s,4.5471,4.6911,4.7290,4.6557,0.0784,3
+EC4,DQN | x0.98 per episode (faster),greedy_reached_goal,1,1,1,1.0000,0.0000,3
+EC4,DQN | x0.98 per episode (faster),greedy_steps,8,8,8,8.0000,0.0000,3
+EC4,DQN | linear to 0.01 over 200 episodes,avg_reward_last50,2.3800,2.9000,2.8400,2.7067,0.2323,3
+EC4,DQN | linear to 0.01 over 200 episodes,episodes_to_learn,158,167,188,171.0000,12.5698,3
+EC4,DQN | linear to 0.01 over 200 episodes,train_time_s,5.9728,5.7442,5.5307,5.7492,0.1806,3
+EC4,DQN | linear to 0.01 over 200 episodes,greedy_reached_goal,1,1,1,1.0000,0.0000,3
+EC4,DQN | linear to 0.01 over 200 episodes,greedy_steps,8,8,8,8.0000,0.0000,3
+EC5,Q-Learning,avg_reward_last50,-7.5400,-7.3400,-7.3800,-7.4200,0.0864,3
+EC5,Q-Learning,episodes_to_learn,101,104,86,97.0000,7.8740,3
+EC5,Q-Learning,train_time_s,0.1264,0.1214,0.1298,0.1259,0.0034,3
+EC5,Q-Learning,greedy_reached_goal,1,1,1,1.0000,0.0000,3
+EC5,Q-Learning,greedy_steps,18,18,18,18.0000,0.0000,3
+EC5,Q-Learning,total_env_steps,13836,13621,14011,13822.6667,159.4957,3
+EC5,Q-Learning,policy_optimal_action_share,0.7808,0.7945,0.8767,0.8174,0.0423,3
+EC5,DQN,avg_reward_last50,-7.7800,-503.8600,-7.7200,-173.1200,233.8685,3
+EC5,DQN,episodes_to_learn,315,did not learn,178,246.5000,68.5000,2
+EC5,DQN,train_time_s,125.4072,369.8545,47.3313,180.8643,137.3849,3
+EC5,DQN,greedy_reached_goal,1,0,1,0.6667,0.4714,3
+EC5,DQN,greedy_steps,18,goal not reached,18,18.0000,0.0000,2
+EC5,DQN,total_env_steps,112116,299400,44095,151870.3333,107952.0450,3
+EC5,DQN,policy_optimal_action_share,0.7945,0.2740,0.9452,0.6712,0.2876,3
+EC5,maze (same for all seeds),distinct_walls,26,26,26,26.0000,0.0000,3
+EC5,maze (same for all seeds),bfs_shortest_moves,18,18,18,18.0000,0.0000,3
+EC5,maze (same for all seeds),best_reward,-7,-7,-7,-7.0000,0.0000,3
+EC6,Q-Learning,avg_reward_last50,2.9600,2.9800,3.0000,2.9800,0.0163,3
+EC6,Q-Learning,episodes_to_learn,25,28,23,25.3333,2.0548,3
+EC6,Q-Learning,train_time_s,0.0430,0.0391,0.0401,0.0407,0.0017,3
+EC6,Q-Learning,greedy_reached_goal,1,1,1,1.0000,0.0000,3
+EC6,Q-Learning,greedy_steps,8,8,8,8.0000,0.0000,3
+EC6,DQN,avg_reward_last50,2.7400,2.9800,2.9000,2.8733,0.0998,3
+EC6,DQN,episodes_to_learn,51,15,15,27.0000,16.9706,3
+EC6,DQN,train_time_s,24.7976,4.8503,4.9254,11.5244,9.3856,3
+EC6,DQN,greedy_reached_goal,1,1,1,1.0000,0.0000,3
+EC6,DQN,greedy_steps,8,8,8,8.0000,0.0000,3
