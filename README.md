@@ -1,0 +1,2 @@
+# Q-Learning-and-Deep-Q-Network-for-Maze-Pathfinding-Design-Hyperparameter-Analysis-and-Extensions
+This project compares tabular Q-Learning and a Deep Q-Network (DQN) for finding a path through a 5×5 maze. Both agents learned the optimal 8-move route. Tests showed the starting exploration rate mattered most. Extra experiments covered Double DQN, SARSA, epsilon schedules and a larger 10×10 maze, where tabular Q-Learning scaled better.
